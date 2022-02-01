@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count = "2" parallel="tests">
+  <test name="Test on Chrome">
+  <parameter name="Browser" value="chrome"></parameter>
+  <classes>
+  <class name="BootCamp.AutomationProjects.BrowsersTest"></class>
+  </classes>
+  </test>
+  
+    <test name="Test on Edge">
+  <parameter name="Browser" value="Edge"></parameter>
+  <classes>
+  <class name="BootCamp.AutomationProjects.BrowsersTest"></class>
+  </classes>
+  </test>
+  
+  <test name="Test on Firefox">
+  <parameter name="Browser" value="Firefox"></parameter>
+    <classes>
+  <class name="BootCamp.AutomationProjects.BrowsersTest"></class>
+  </classes>
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
