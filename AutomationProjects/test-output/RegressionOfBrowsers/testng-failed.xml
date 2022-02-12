@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [RegressionOfBrowsers]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" name="RegressionOfEdge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <parameter name="url" value="https://www.expedia.com"/>
+    <classes>
+      <class name="BootCamp.AutomationProjects.ExpediaFlights">
+        <methods>
+          <include name="f"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- BootCamp.AutomationProjects.ExpediaFlights -->
+    </classes>
+  </test> <!-- RegressionOfEdge(failed) -->
+</suite> <!-- Failed suite [RegressionOfBrowsers] -->

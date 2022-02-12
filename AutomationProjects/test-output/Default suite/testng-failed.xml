@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BootCamp.AutomationProjects.BrowsersTest">
+      <class name="BootCamp.AutomationProjects.ExpediaTest">
         <methods>
-          <include name="setUpBrowser"/>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- BootCamp.AutomationProjects.BrowsersTest -->
+      </class> <!-- BootCamp.AutomationProjects.ExpediaTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

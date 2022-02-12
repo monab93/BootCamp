@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ädhoc]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegressionOfEdge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="BootCamp.AutomationProjects.BrowsersTest">
+        <methods>
+          <include name="setUpBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- BootCamp.AutomationProjects.BrowsersTest -->
+    </classes>
+  </test> <!-- RegressionOfEdge(failed) -->
+</suite> <!-- Failed suite [Ädhoc] -->
